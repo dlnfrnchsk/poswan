@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   btnOpen.addEventListener("click", open);
   btnReset.addEventListener("click", close);
   btnLogout.addEventListener("click", function () {
-    window.location.href = "login.php";
+    window.location.href = "login.html";
   });
 
   btnReadMe.addEventListener("click", function (e) {
