@@ -16,10 +16,11 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     const username = document.getElementById("username").value.trim();
     const password = document.getElementById("password").value;
 
-    const validUsername = "pufferpish";
-    const validPasswords = ["pufferpish1213", "pufferfish1215"];
+    const validUsername = "pufferfish";
+    const validPasswords = ["pufferfish1213", "pufferfish1215"];
 
     if (username === validUsername && validPasswords.includes(password)) {
+        window.location.href = "dashboard.php";
         alert("Login successful!");
     } else {
         alert("Invalid username or password.");
