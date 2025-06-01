@@ -20,7 +20,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     const validPasswords = ["pufferfish1213", "pufferfish1215"];
 
     if (username === validUsername && validPasswords.includes(password)) {
-        window.location.href = "dashboard.php";
+        window.location.href = "dashboard.html";
         alert("Login successful!");
     } else {
         alert("Invalid username or password.");
