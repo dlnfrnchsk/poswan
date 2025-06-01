@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action=""id="loginForm">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn"><a href="dashboard.php">Login</a></button>
+                <p>or login with Google Account</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <form action="">
+                <h1>Clue to Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="my messenger nickname 4 u" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="prev. email link 2 my ml" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="ur nn and bday" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <p>Already know the clues?</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google'></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <p>Don't know the input?</p>
+                <button class="btn register-btn">Clue</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already know the clues to login?</p>
+                <button class="btn login-btn">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="loginscript.js"></script>
+</body>
+</html>
